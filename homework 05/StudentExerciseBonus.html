@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+</head>
+<body>
+
+<header>
+    <h1>STUDENT EXERCISE</h1>
+</header>
+
+<main>
+    <form>
+        <fieldset>
+            <p>Testform</p>
+            <hr />
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required/>
+            <br />
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required/>
+            <br />
+            <label for="SelectGender">Gender:</label>
+            <select id="SelectGender" name="gender">
+                <option disabled selected>Please select an option</option>
+                <option>Female</option>
+                <option>Male</option>
+            </select>
+            <br />
+            <label for="SelectContinent">Continent:</label>
+            <select id="SelectContinent" name="continent">
+                <option disabled selected>Please select an option</option>
+                <option>Europe</option>
+                <option>North America</option>
+                <option>South America</option>
+                <option>Asia</option>
+                <option>Australia</option>
+                <option>Africa</option>
+            </select>
+            <br />
+            <br />
+            <label for="meal">Meals</label>
+            <br />
+            <label for="Breakfast">Breakfast</label>
+            <input type="radio" id="Breakfast"/>
+            <br />
+            <label for="Lunch">Lunch</label>
+            <input type="radio" id="Lunch"/>
+            <br />
+            <label for="Dinner">Dinner</label>
+            <input type="radio" id="Dinner"/>
+            <br />
+            <br />
+            <label for="remark">Remark:</label>
+            <textarea id="remark" name="remark" rows="3"></textarea>
+            <br />
+            <hr />
+            <button type="submit">Send</button>
+            <button type="reset">Cancel</button>
+        </fieldset>
+    </form>
+</main>
+
+<footer>
+    <p>&copy; 2024</p>
+</footer>
+</body>
+</html>
